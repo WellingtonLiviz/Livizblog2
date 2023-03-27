@@ -1,0 +1,26 @@
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav,
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.nav, svg {
+    color: black; 
+}
+
+.titulo-header{
+  margin-top: 20px;
+  text-align: center;
+  font-family: cursive;
+}

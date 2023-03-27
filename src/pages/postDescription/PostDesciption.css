@@ -1,0 +1,41 @@
+
+.Container-Description-Pai {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+}
+
+.Titulo-User {
+  color: black;
+  text-align: center;
+}
+
+
+.Container-Description {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+  gap: 30px;
+  padding: 10px;
+  margin: 30px 30px;
+  background-color: cornflowerblue;
+  border-radius: 4px;
+  border: solid 8px blue;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.Container-Description-1 {
+  font-size: 20px;
+  background-color: blue;
+  align-self: center;
+  padding: 5px 5px;
+  border-radius: 4px;
+}
+.Container-Description-2 {
+  font-size: 16px;
+  align-items: center;
+  align-self: center;
+}
+.ContainerButton {
+  padding-bottom: 20px;
+}
