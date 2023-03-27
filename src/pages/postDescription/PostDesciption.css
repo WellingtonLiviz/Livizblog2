@@ -39,3 +39,23 @@
 .ContainerButton {
   padding-bottom: 20px;
 }
+@media(max-width: 400px){
+  .Container-Description-Pai {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+}
+.Container-Description {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 10px;
+  margin: 20px 10px;
+  background-color: cornflowerblue;
+  border-radius: 4px;
+  border: solid 8px blue;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  opacity: 0.8;
+  margin-bottom: 30px;
+  width: 310px;
+}
+}
